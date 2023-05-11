@@ -3,7 +3,7 @@ import "./styles.scss";
 function Letter() {
   return (
     <div className="container backGroundColor-White">
-      <div class="elementor-widget-wrap">
+      <div className="elementor-widget-wrap">
         <div className="container">
           <div className="container">
             <h2 style={{ fontSize: "50px", marginBottom: "20px" }}>

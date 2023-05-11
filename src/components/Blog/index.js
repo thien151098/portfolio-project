@@ -4,7 +4,7 @@ import "./styles.scss";
 function Blog() {
   return (
     <div className="container backGroundColor-White">
-      <div class="elementor-widget-wrap">
+      <div className="elementor-widget-wrap">
         <div className="container">
           <h2 className="name-blog">Blog</h2>
           <p>
@@ -52,8 +52,9 @@ function Blog() {
                       </a>
                     </h5>
                     <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Bearable only through love hydrogen atoms bits of moving
+                      fluff culture shores of the cosmic ocean paroxysm of
+                      global death rich in heavy atoms ...
                     </p>
                     <Button
                       action="https://demo.cocobasic.com/romea-wp/demo-1/preserve-and-cherish-that-pale-blue-dot-are-creatures-of-the-cosmos-light-years/"

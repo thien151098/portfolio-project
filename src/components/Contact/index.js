@@ -12,7 +12,7 @@ function Contact() {
   };
   return (
     <div className="container backGroundColor-White">
-      <div class="elementor-widget-wrap">
+      <div className="elementor-widget-wrap">
         <div className="row">
           <div className="col">
             <h2>Contact</h2>

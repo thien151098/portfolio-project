@@ -1,18 +1,17 @@
 import "./styles.scss";
 
-
 function Skills() {
-    return (
-        <div className="container mt-3 text-white bg-dark">
-          <div class="elementor-widget-wrap">
-            <div className="container">
-        <h2>Skills</h2>
+  return (
+    <div className="container mt-3 text-white bg-dark">
+      <div className="elementor-widget-wrap">
+        <div className="container">
+          <h2>Skills</h2>
         </div>
         <div className="container">
-        <p>
-          A full stack allaround designer that tristique est placerat in massa{" "}
-          <strong>consectetur quisque</strong> lobortis vitae faucibus diam
-        </p>
+          <p>
+            A full stack allaround designer that tristique est placerat in massa{" "}
+            <strong>consectetur quisque</strong> lobortis vitae faucibus diam
+          </p>
         </div>
         <div className="progress container" style={{ height: "30px" }}>
           <div
@@ -99,9 +98,9 @@ function Skills() {
             <span style={{ margin: "0px 0px 0px 300px" }}>62%</span>
           </div>
         </div>
-        </div>
       </div>
-    );
+    </div>
+  );
 }
 
 export default Skills;

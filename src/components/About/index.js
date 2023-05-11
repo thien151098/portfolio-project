@@ -4,7 +4,7 @@ import "./styles.scss";
 function About() {
   return (
     <div className="about container backGroundColor-White">
-      <div class="elementor-widget-wrap">
+      <div className="elementor-widget-wrap">
         <h1>About</h1>
         <div className="container about-text">
           <p>

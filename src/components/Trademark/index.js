@@ -1,7 +1,7 @@
 function Trademark() {
   return (
     <div className="container bg-dark">
-      <div class="elementor-widget-wrap">
+      <div className="elementor-widget-wrap">
         <div className="row">
           <div className="col-4 col-sm-3 col-md text-center">
             <img

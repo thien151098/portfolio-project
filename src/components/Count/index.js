@@ -4,7 +4,7 @@ import "./styles.scss";
 function Count() {
   return (
     <div className="container bg-dark text-white">
-      <div class="elementor-widget-wrap">
+      <div className="elementor-widget-wrap">
         <div className="count-text container">
           {" "}
           Aliquet ultricies eget viverra arcu vitae faucibus diam consequat
