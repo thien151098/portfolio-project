@@ -1,0 +1,59 @@
+
+  
+  /* Style the overlay */
+  .overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* Style the open button */
+  .open-button {
+    padding: 10px 30px;
+    background: #050505;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 35px;
+  }
+  
+  .open-button:hover {
+    background: #1d2730;
+  }
+  
+  /* Style the "Close" button */
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+  }
+  

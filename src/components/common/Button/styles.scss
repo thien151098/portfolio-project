@@ -1,0 +1,32 @@
+a.coco-button:hover {
+  color: #000;
+}
+a.coco-button {
+  color: #000;
+  font-size: 12px;
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+a.coco-button:hover:before {
+  width: calc(100% + 30px);
+  height: 52px;
+  border-radius: 50px;
+  top: -18px;
+}
+a.coco-button:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000;
+  background: 0 0;
+  border-radius: 90%;
+  top: -8px;
+  position: absolute;
+  transition: .3s;
+}
+a.coco-button span {
+  transition: .3s;
+  display: inline-block;
+  margin-left: 50px;
+}
