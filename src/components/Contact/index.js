@@ -17,7 +17,9 @@ function Contact() {
       <div className="elementor-widget-wrap">
         <div className="row">
           <div className="col">
-            <h2>Contact</h2>
+            <div className="heading-title">
+              <h2>Contact</h2>
+            </div>
             <p>
               A full stack allaround designer that tristique est placerat in
               massa <strong>consectetur quisque</strong> lobortis vitae faucibus

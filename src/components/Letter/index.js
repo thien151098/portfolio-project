@@ -51,7 +51,7 @@ function Letter() {
                 <p>
                   Mauris nibh libero, vulputate in mi sed, pharetra pharetra
                   purus. Morbi ultricies nisl diam, acare pharetra purus{" "}
-                  <a class="slow-scroll" href="#contact">
+                  <a className="slow-scroll" href="#contact">
                     fermentum
                   </a>{" "}
                   congue. Etiam inta suscipit lorem. Nullam molestie urna eget

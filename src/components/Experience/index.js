@@ -4,10 +4,10 @@ function Experience() {
   return (
     <div className="container backGroundColor-White">
       <div className="elementor-widget-wrap">
-        <div className="container">
+        <div className="container heading-title">
           <h2>Experience</h2>
         </div>
-        <div className="container">
+        <div className="container widget-container">
           <p>
             A full stack allaround designer that tristique est placerat in massa{" "}
             <strong>consectetur quisque</strong> lobortis vitae faucibus diam

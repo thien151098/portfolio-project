@@ -4,10 +4,10 @@ function Skills() {
   return (
     <div className="container mt-3 text-white bg-black">
       <div className="elementor-widget-wrap">
-        <div className="container">
+        <div className="container heading-title">
           <h2 style={{ fontSize: "50px" }}>Skills</h2>
         </div>
-        <div className="container">
+        <div className="container widget-container">
           <p>
             A full stack allaround designer that tristique est placerat in massa{" "}
             <strong>consectetur quisque</strong> lobortis vitae faucibus diam

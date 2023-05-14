@@ -12,7 +12,7 @@ function Video() {
           light={
             <img src="https://demo.cocobasic.com/romea-wp/demo-1/wp-content/uploads/2020/09/video_image.jpg"></img>
           }
-          width="100%"
+          width="1100px"
           height="100%"
         />
       </div>

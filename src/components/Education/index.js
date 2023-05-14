@@ -4,8 +4,10 @@ function Education() {
   return (
     <div className="container backGroundColor-White">
       <div className="elementor-widget-wrap">
-        <div>
+        <div className="heading-title container">
           <h2>Education</h2>
+        </div>
+        <div className="widget-container">
           <p>
             A full stack allaround designer that tristique est placerat in massa{" "}
             <strong>consectetur quisque</strong> lobortis vitae faucibus diam

@@ -7,14 +7,14 @@ function Portfolio() {
   return (
     <div className="container mt-3 text-white bg-black">
       <div className="elementor-widget-wrap">
-        <div className="container">
-        <h2 className="Portfolio">Portfolio</h2>
+        <div className="container heading-title">
+          <h2 className="Portfolio">Portfolio</h2>
         </div>
-        <div className="container">
-        <p>
-          A full stack allaround designer that tristique est placerat in massa{" "}
-          <strong>consectetur quisque</strong> lobortis vitae faucibus diam
-        </p>
+        <div className="container widget-container">
+          <p>
+            A full stack allaround designer that tristique est placerat in massa{" "}
+            <strong>consectetur quisque</strong> lobortis vitae faucibus diam
+          </p>
         </div>
         <div className="container">
           {["right"].map((placement) => (

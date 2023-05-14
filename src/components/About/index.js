@@ -5,8 +5,10 @@ function About() {
   return (
     <div className="about container backGroundColor-White">
       <div className="elementor-widget-wrap">
-        <h1>About</h1>
-        <div className="container about-text">
+        <div className="container heading-title">
+          <h2>About</h2>
+        </div>
+        <div className="container widget-container about-text">
           <p>
             A full stack allaround designer that tristique est placerat in massa{" "}
             <strong>consectetur quisque </strong>lobortis vitae faucibus diam
@@ -18,9 +20,9 @@ function About() {
             <h1>
               <i className="fa-light fa-circle-1"></i>1
             </h1>
-            <h2>
+            <div>
               Dolor sit amet, consectetur adipiscing elit viverra tristique
-            </h2>
+            </div>
             <p>
               Faucibus sed tristique fames sed aliquet ultr eget viverra arcu.
               Vitae faucibus diam polo consequat maecenas. Turpis metus sit diam
@@ -33,11 +35,11 @@ function About() {
             <h1>
               <i className="fa-light fa-circle-1"></i>2
             </h1>
-            <h2>
+            <div>
               {" "}
               Lorem consectetur adipiscing elit viverra tristique donec est
               setera
-            </h2>
+            </div>
             <p>
               {" "}
               Tristique fames sed aliquet ultricies eget viverra arcu mous

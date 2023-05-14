@@ -6,11 +6,16 @@ function Blog() {
     <div className="container backGroundColor-White">
       <div className="elementor-widget-wrap">
         <div className="container">
-          <h2 className="name-blog">Blog</h2>
-          <p>
-            A full stack allaround designer that tristique est placerat in massa{" "}
-            <strong>consectetur quisque</strong> lobortis vitae faucibus diam
-          </p>
+          <div className="widget-container">
+            <h2 className="name-blog">Blog</h2>
+          </div>
+          <div className="widget-container">
+            <p>
+              A full stack allaround designer that tristique est placerat in
+              massa <strong>consectetur quisque</strong> lobortis vitae faucibus
+              diam
+            </p>
+          </div>
           <div className="col">
             <div className="row row-cols-1 row-cols-md-2">
               <div className="card">
