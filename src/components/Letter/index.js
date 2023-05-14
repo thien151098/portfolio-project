@@ -47,6 +47,18 @@ function Letter() {
                   semper ipsum moronos textures asonius.
                 </p>
               </div>
+              <div className="container">
+                <p>
+                  Mauris nibh libero, vulputate in mi sed, pharetra pharetra
+                  purus. Morbi ultricies nisl diam, acare pharetra purus{" "}
+                  <a class="slow-scroll" href="#contact">
+                    fermentum
+                  </a>{" "}
+                  congue. Etiam inta suscipit lorem. Nullam molestie urna eget
+                  exat malesuada feugiat. Nam aliquet facilisis ipsum, at
+                  tincidunt dolor sagittis sit amet lorem.
+                </p>
+              </div>
             </div>
             <div className="col">
               <img src="https://demo.cocobasic.com/romea-wp/demo-1/wp-content/uploads/2020/09/cover.jpg"></img>

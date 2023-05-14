@@ -8,27 +8,32 @@ function Project() {
         <section id="Project">
           <div className="row">
             <div className="col">
-              <br />
-              <br />
-              <h1 className="name">
-                Hello
-                <br />
-                I'm Rob
-                <br />
-                Davidson
-              </h1>
-              <p>
-                A full stack allaround <strong>designer </strong>that placerat
-                in massa consectetur
-              </p>
-              <a
-                className="project-button"
-                href="https://demo.cocobasic.com/documentation/MANUAL-RomeaWP.pdf"
-                target="_blank"
-                rel="nofollow"
-              >
-                <span>DOWNLOAD CV</span>
-              </a>
+              <div className="container">
+                <h1 className="name">
+                  Hello
+                  <br />
+                  I'm Rob
+                  <br />
+                  Davidson
+                </h1>
+              </div>
+              <div className="container">
+                <p>
+                  A full stack allaround{" "}
+                  <em>
+                    <strong>designer </strong>
+                  </em>
+                  that placerat in massa consectetur
+                </p>
+                <a
+                  className="project-button"
+                  href="https://demo.cocobasic.com/documentation/MANUAL-RomeaWP.pdf"
+                  target="_blank"
+                  rel="nofollow"
+                >
+                  <span>DOWNLOAD CV</span>
+                </a>
+              </div>
             </div>
             <div className="col">
               <img

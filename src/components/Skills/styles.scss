@@ -1,0 +1,64 @@
+.skills-holder {
+    position: relative;
+    width: 100%;
+}
+.skill-holder {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-items: center;
+    height: 60px;
+    box-sizing: border-box;
+}
+.skill-holder:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+.skill {
+    width: calc(100% - 70px);
+    height: 3px;
+    background-color: #545454;
+    position: relative;
+}
+.skill-text {
+    color: #000;
+    font-size: 12px;
+    line-height: 100%;
+    font-weight: 600;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 3;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 35px;
+    vertical-align: top;
+    display: inline-block;
+}
+.skill-fill {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 10%;
+    height: 60px;
+    transition: width .7s;
+    background-color: #fff;
+    max-width: 97%;
+    z-index: 2;
+}
+.skill-fill-mask {
+    width: 10%;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    height: 60px;
+    transition: width .7s;
+    background-color: #000;
+    z-index: 1;
+    max-width: 99%;
+}
+.skill-num {
+    font-size: 22px;
+    color: #fff;
+    margin-left: 30px;
+}

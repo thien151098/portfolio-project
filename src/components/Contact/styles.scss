@@ -1,0 +1,29 @@
+input{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #000;
+    background-color: transparent;
+    width: 100%;
+    height: 28px;
+    border: 0;
+    border-bottom: 3px solid;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 22px;
+    margin-top: 13px;
+    box-sizing: initial;
+    outline: none;
+}
+label {
+    display: contents;
+}
+fieldset{
+    margin-bottom: 30px;
+}
+.input-default-text{
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .3s;
+}

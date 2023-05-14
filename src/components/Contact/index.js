@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "./styles.scss";
+import Button from "../common/Button";
 
 function Contact() {
   const [submitting, setSubmitting] = useState(false);
@@ -43,27 +45,27 @@ function Contact() {
               <form onSubmit={handleSubmit}>
                 <fieldset>
                   <label>
-                    <p>Name</p>
+                    <p className="input-default-text has-content">Name</p>
                     <input name="name"></input>
                   </label>
                   <br />
                   <label>
-                    <p>Email</p>
+                    <p className="input-default-text has-content">Email</p>
                     <input name="email"></input>
                   </label>
                   <br />
                   <label>
-                    <p>Subject</p>
+                    <p className="input-default-text has-content">Subject</p>
                     <input name="subject"></input>
                   </label>
                   <br />
                   <label>
-                    <p>Message</p>
+                    <p className="input-default-text has-content">Message</p>
                     <input name="message"></input>
                   </label>
                   <br />
                 </fieldset>
-                <button type="submit">SEND MESSAGE</button>
+                <Button text="SEND MESSAGE" />
               </form>
             </div>
           </div>

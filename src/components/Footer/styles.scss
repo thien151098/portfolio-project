@@ -1,0 +1,15 @@
+.column-gap-no{
+    max-width: 300px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.icon-footer{
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+}

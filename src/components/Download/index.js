@@ -2,11 +2,11 @@ import "./styles.scss";
 
 function Download() {
   return (
-    <div className="container bg-dark">
+    <div className="container bg-black">
       <div className="elementor-widget-wrap">
         <div className="container text-center" style={{ marginBottom: "20px" }}>
           <a
-            className="coco-button-underline slow-scroll"
+            className="coco-button-underline"
             href="https://demo.cocobasic.com/documentation/MANUAL-RomeaWP.pdf"
             target="_blank"
             rel="nofollow"
